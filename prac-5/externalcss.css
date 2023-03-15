@@ -1,0 +1,10 @@
+body
+{
+	background-color:black;
+        color:blue;
+	text-align:center;
+	background-image: url("/home/student/A-47_SyCyber/prac-5/download.jpeg");
+	background-repeat:no-repeat;
+	background-attachment:fixed;
+	background-size:100% 100%
+}
