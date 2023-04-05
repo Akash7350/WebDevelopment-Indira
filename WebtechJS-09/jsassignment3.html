@@ -1,0 +1,20 @@
+<html>
+<head>
+<script type="text/javascript">
+function fact()
+{
+var num = parseInt(document.getElementById("txt").value);
+var f=1;
+for(i = 1; i <= num; i++)    
+{  
+	f=f*i; 
+}  
+ document.write("Factorial is = "+f);
+}
+</script>
+</head>
+<body>
+Enter Number 1 : <input type=text id=txt><br>
+<button type=button onclick = fact()>  Factorial </button>  
+</body>
+</html>
